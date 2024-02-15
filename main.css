@@ -1,0 +1,291 @@
+.icone1{
+    height: 30px;
+    width: 30px;
+    margin-top: 7px;
+}
+.icone{
+    height: 7vh;
+    margin-top: 20px;
+    background-color: #34495e;
+    display: flex;
+    justify-content: space-around;
+}
+footer{
+    bottom: 0px;
+}
+#home{
+    background-image: url(profileveera.jpg);
+    height: 150vh;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    place-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+.navbarScroll.navbarDark {
+    background-color: black;
+}
+ul li{
+    top: 0px;
+    display: inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(245, 245, 245, 0.192);
+   
+}
+ul{
+    text-align: center;
+    word-spacing: 100px;
+}
+a{
+    text-decoration: none;
+    color: rgba(169, 169, 169, 0.699);
+}
+.link:hover{
+    color: white;
+}
+.button{
+    background:#fff;
+    padding: 10px 15px;
+    color: #34495e;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 18px;
+    border-radius: 5px;
+    box-shadow: 6px 6px 29px 4px rgba(0,0,0,0.75);
+    margin-top: 25px;
+    text-decoration: none;
+    transition: 0.45;
+    }
+    .button:hover{
+    background:#ee6750;
+    color: #fff;
+    }
+.nav{
+    top: 0%;
+    height: 10vh;
+    text-align: center;
+    position: sticky;
+    background-color: #34495e;
+    z-index: 999;
+}
+
+#about{
+    background-image: url(img3.jpg);
+    height: 70vh;
+   background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    place-items: center; 
+}
+.img1{
+   height:50vh;
+   width: 30vw;
+   margin-left: 4vw;
+   margin-top: 4vh;
+   box-shadow: 0px 0px 20px black;
+}
+.about{
+    margin-top: 5vh;
+    display: flex;
+}
+.about1{
+    margin-left: 5vh;
+}
+.aboutmain{
+    margin-top: 5vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#Education{
+    background-image: url(background-tree-book-wallpaper-preview.jpg);
+    height: 80vh;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    place-items: center;
+}
+.Education1{
+ top: 370%;
+}
+.school{
+    width: 400px;
+    height: 400px;
+    box-shadow: 0px 0px 20px rgba(2, 1, 1, 0.596);
+    border-radius: 10px;
+    filter: contrast(150%);
+    z-index: 9999;
+}
+.flip-card {
+    display: flex;
+    background-color: transparent;
+    width: 400px;
+    height: 400px;
+    perspective: 1000px;
+    border-radius: 10px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 10px;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+    border-radius: 10px;
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 10px;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+    border-radius: 10px;
+  }
+  
+  .flip-card-back {
+    background-color: #0e1920e8;
+    color: white;
+    transform: rotateY(180deg);
+    border-radius: 10px;
+  }
+#Flip{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.edu{
+    margin-top: 140px;
+}
+
+#skills{
+    background-image: url(artificial-intelligence-binary-digital-art-glowing-wallpaper-preview.jpg);
+    height: 80vh;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    place-items: center;
+    filter:  hue-rotate(240deg);
+}
+.jsicon{
+    height: 40px;
+    width: 40px;
+    margin-left: 45%;
+    margin-top: 20px;
+}
+.javascript{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.React{
+    height: 320px;
+    width: 400px;
+    border: 0.3px solid #34495e;
+}
+.React:hover{
+    box-shadow: 0px 0px 20px #34495e;
+    border: 0.3px solid rgba(3, 164, 238, 0.911);
+}
+
+#certificate{
+    background-image: url(certificate.jpg);
+    height: 80vh;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    place-items: center;
+}
+.button2{
+    height: 7vh;
+    background: #34495e;
+    color: #fff;
+    padding: 10px 15px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 40px;
+    text-decoration: none;
+    transition: 0.45;
+    margin-right: 10px;
+}
+.button3{
+    height: 7vh;
+    background: #34495e;
+    color: #fff;
+    padding: 10px 15px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 50px;
+    text-decoration: none;
+    transition: 0.45;
+    margin-right: 10px;
+}
+.button4{
+    height: 7vh;
+    background: #34495e;
+    color: #fff;
+    padding: 10px 15px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 70px;
+    text-decoration: none;
+    transition: 0.45;
+    margin-right: 10px;
+}
+#imgcer{
+    height: 70%;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 3%;
+    box-shadow: 0px 0px 10px #34495e ;
+}
+#imgcer2{
+    height: 70%;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 3%;
+    box-shadow: 0px 0px 10px #34495e ;
+}
+#imgcer3{
+    height: 70%;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 3%;
+    box-shadow: 0px 0px 10px #34495e ;
+}
+
+.create{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0px;
+    padding-left: 10px;
+    border: 0.3px solid #34495e;
+}
+.create:hover{
+    box-shadow: 0px 0px 10px #34495e;
+}

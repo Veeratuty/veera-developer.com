@@ -1,0 +1,116 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(profileveera.jpg);
+            background-size: 100%;
+            background-position: center;
+        }
+        .veera{
+    position: absolute;
+    left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
+    height: 50vh;
+    width: 40%;
+    border: 5px outset #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.3rem;
+    
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px #fff;
+}
+.veera:hover{
+    background: linear-gradient(135deg,rgba(255,255,255,0.1), rgba(255,255,255,0));
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+}
+
+input{
+    border-radius: 8px;
+    width: 400px;
+    height: 5vh;
+}
+#submit{
+    margin-left: 100px;
+    width: 200px;
+    height: 5vh;
+}
+span{
+    color: red;
+}
+ul li{
+    display: inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(245, 245, 245, 0.192);
+   
+}
+ul{
+    text-align: center;
+    word-spacing: 100px;
+}
+a{
+    text-decoration: none;
+    color: rgba(169, 169, 169, 0.699);
+}
+a:hover{
+    color: white;
+}
+img{
+    height: 35px;
+    width: 35px;
+}
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
+           
+            
+                
+        <ul class="navbar-nav ms-auto">
+           <li><h1 style="color: white; outline-color: black; font-size: 2.5rem;">VEERA</h1></li>
+            <li class="nav-item active">
+                <a class="nav-link" href="main.html" style="font-size: 2rem;">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://www.instagram.com"><img src="insta.png" alt=""></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://www.linkedin.com"><img src="in.png" alt=""></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://www.twitter.com"><img src="twit.png" alt=""></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://www.facebook.com"><img src="face.png" alt=""></a>
+            </li>
+        </ul>
+    </nav>
+
+    <h1 style="font-size: 3rem; color: white; text-shadow: 2px 2px 8px #FF0000; text-align: center;">Contect Me</h1>
+
+    <div class="veera" style="margin-top: 100px;">
+    <form name="veera"  onsubmit="return veeraFrom()">
+    <input type="text" name="username" class="username" placeholder="Name"> <br>
+    <span id="usererror"></span><br><br>
+    
+    <input type="email" name="email" class="email" placeholder="Email"> <br>
+    <span id="mailerror"></span><br><br>
+    
+    <input type="massage" name="massage" class="massage" placeholder="Massage"> <br><br><br>
+
+    <input type="submit" id="submit">
+    
+    </form>
+</div>
+
+
+
+ <script src="javascript.js"></script>
+</body>
+</html>
